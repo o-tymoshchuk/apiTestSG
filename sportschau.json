@@ -4,19 +4,13 @@
       "name":"Fußball",
       "competition":[
          {
-            "id":"12",
-            "name":"Bundesliga",
+            "id":"19",
+            "name":"Champions League",
             "type":"club",
             "gender":"male",
-            "current_season_id":"39227",
-            "current_round_id":"117247",
-            "current_matchday":"8",
-            "country":{
-               "id":"47",
-               "name":"Deutschland",
-               "code":"GER",
-               "iso":"DE"
-            },
+            "current_season_id":"40652",
+            "current_round_id":"120085",
+            "current_matchday":"0",
             "federation":{
                "id":"2",
                "name":"UEFA",
@@ -29,52 +23,154 @@
             },
             "season":[
                {
-                  "id":"39227",
+                  "id":"40652",
                   "name":"2021/2022",
-                  "current_round_id":"117247",
-                  "current_group_matchday":"0",
+                  "current_round_id":"120085",
+                  "current_group_matchday":"3",
                   "start":"01.07.2021",
                   "end":"30.06.2022",
                   "round":[
                      {
-                        "id":"117247",
-                        "name":"Spieltag",
-                        "current_matchday":"8",
-                        "round_order":"0",
+                        "id":"120089",
+                        "name":"Gruppe E",
+                        "current_matchday":"0",
+                        "round_order":"1",
                         "match":[
                            {
-                              "id":"9242926",
-                              "matchday":"8",
-                              "group_matchday":"0",
-                              "match_date":"15.10.2021",
-                              "match_time":"20:30",
-                              "finished":"no",
+                              "id":"9307253",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"18:45",
+                              "finished":"yes",
                               "live_status":"full",
-                              "real_live_status":"upcoming",
-                              "current_period":"",
-                              "current_period_start":"",
-                              "current_minute":"0",
+                              "real_live_status":"finished",
+                              "current_period":"game-end",
+                              "current_period_start":"2021-10-20T20:35:51Z",
+                              "current_minute":"90",
                               "attendance":"",
                               "home":{
-                                 "id":"24",
-                                 "name":"1899 Hoffenheim",
-                                 "shortname":"Hoffenheim",
-                                 "microname":"TSG",
+                                 "id":"597",
+                                 "name":"FC Barcelona",
+                                 "shortname":"Barcelona",
+                                 "microname":"FCB",
                                  "type":"club",
                                  "gender":"male",
                                  "show_team":"yes",
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"193",
+                                    "name":"Spanien",
+                                    "code":"ESP",
+                                    "iso":"ES"
                                  }
                               },
                               "away":{
-                                 "id":"9",
-                                 "name":"1. FC Köln",
-                                 "shortname":"Köln",
-                                 "microname":"KOE",
+                                 "id":"486",
+                                 "name":"Dynamo Kiew",
+                                 "shortname":"Dyn. Kiew",
+                                 "microname":"KIE",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"225",
+                                    "name":"Ukraine",
+                                    "code":"UKR",
+                                    "iso":"UA"
+                                 }
+                              },
+                              "match_result":[
+                                 {
+                                    "match_result":"1",
+                                    "match_result_at":"0",
+                                    "place":"home",
+                                    "team_id":"597"
+                                 },
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"0",
+                                    "place":"away",
+                                    "team_id":"486"
+                                 },
+                                 {
+                                    "match_result":"1",
+                                    "match_result_at":"1",
+                                    "place":"home",
+                                    "team_id":"597"
+                                 },
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"1",
+                                    "place":"away",
+                                    "team_id":"486"
+                                 }
+                              ],
+                              "match_meta":[
+                                 {
+                                    "kind":"tactic",
+                                    "content":"22"
+                                 },
+                                 {
+                                    "kind":"tactical",
+                                    "content":"44"
+                                 },
+                                 {
+                                    "kind":"vgzm",
+                                    "content":"vgzm.1820049-ma9307253"
+                                 },
+                                 {
+                                    "kind":"sportverlagSpielId",
+                                    "content":"3040959"
+                                 }
+                              ],
+                              "venue":{
+                                 "id":"300",
+                                 "name":"Camp Nou",
+                                 "town":{
+                                    "id":"138",
+                                    "name":"Barcelona"
+                                 },
+                                 "country":{
+                                    "id":"193",
+                                    "name":"Spanien",
+                                    "code":"ESP",
+                                    "iso":"ES"
+                                 }
+                              }
+                           },
+                           {
+                              "id":"9306899",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"21:00",
+                              "finished":"no",
+                              "live_status":"full",
+                              "real_live_status":"live",
+                              "current_period":"game-start",
+                              "current_period_start":"2021-10-20T21:00:03Z",
+                              "current_minute":"39",
+                              "attendance":"",
+                              "home":{
+                                 "id":"1731",
+                                 "name":"SL Benfica",
+                                 "shortname":"SL Benfica",
+                                 "microname":"SLB",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"167",
+                                    "name":"Portugal",
+                                    "code":"POR",
+                                    "iso":"PT"
+                                 }
+                              },
+                              "away":{
+                                 "id":"209",
+                                 "name":"Bayern München",
+                                 "shortname":"Bayern",
+                                 "microname":"FCB",
                                  "type":"club",
                                  "gender":"male",
                                  "show_team":"yes",
@@ -90,65 +186,65 @@
                                     "match_result":"0",
                                     "match_result_at":"0",
                                     "place":"home",
-                                    "team_id":"24"
+                                    "team_id":"1731"
                                  },
                                  {
                                     "match_result":"0",
                                     "match_result_at":"0",
                                     "place":"away",
-                                    "team_id":"9"
+                                    "team_id":"209"
                                  }
                               ],
                               "match_meta":[
                                  {
+                                    "kind":"tactic",
+                                    "content":"22"
+                                 },
+                                 {
                                     "kind":"tactical",
-                                    "content":"11"
+                                    "content":"44"
                                  },
                                  {
                                     "kind":"audiolivestream",
-                                    "content":"https:\/\/wdr-sportschau-liga1spiel7.icecastssl.wdr.de\/wdr\/sportschau\/liga1spiel7\/mp3\/high?file=.mp3"
+                                    "content":"https:\/\/wdr-sportschau-liga1spiel1.icecastssl.wdr.de\/wdr\/sportschau\/liga1spiel1\/mp3\/high?file=.mp3"
                                  },
                                  {
                                     "kind":"audiolivestream_end",
-                                    "content":"2021-10-15T20:30:00Z"
+                                    "content":"2021-10-20T21:15:00Z"
                                  },
                                  {
                                     "kind":"audiolivestream_sophora_channel",
-                                    "content":"Netcast 7"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_sophora_url",
-                                    "content":"https:\/\/www.sportschau.de\/sportimradio\/audiostream-audiostream-netcast----112~_variant-android.rss"
+                                    "content":"Netcast 1"
                                  },
                                  {
                                     "kind":"audiolivestream_start",
-                                    "content":"2021-10-15T18:25:00Z"
+                                    "content":"2021-10-20T18:50:00Z"
                                  },
                                  {
                                     "kind":"audiolivestream_title",
-                                    "content":"BL, ST8: 1899 Hoffenheim - 1. FC Köln"
+                                    "content":"Live hören - Benfica gegen Bayern in der Champions League"
                                  },
                                  {
                                     "kind":"audiolivestream_tracking",
-                                    "content":"Fußball, Bundesliga, Spieltag 8, 1899 Hoffenheim - 1. FC Köln"
+                                    "content":"Live hören - Benfica gegen Bayern in der Champions League"
                                  },
                                  {
                                     "kind":"sportverlagSpielId",
-                                    "content":"2995085"
+                                    "content":"3040960"
                                  }
                               ],
                               "venue":{
-                                 "id":"2341",
-                                 "name":"PreZero Arena",
+                                 "id":"528",
+                                 "name":"Estádio da Luz",
                                  "town":{
-                                    "id":"2153",
-                                    "name":"Sinsheim"
+                                    "id":"855",
+                                    "name":"Lissabon"
                                  },
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"167",
+                                    "name":"Portugal",
+                                    "code":"POR",
+                                    "iso":"PT"
                                  }
                               }
                            }
@@ -162,83 +258,235 @@
                            "show_points":"yes",
                            "show_minuspoints":"no"
                         }
-                     }
-                  ]
-               }
-            ]
-         },
-         {
-            "id":"3",
-            "name":"2. Bundesliga",
-            "type":"club",
-            "gender":"male",
-            "current_season_id":"39228",
-            "current_round_id":"117248",
-            "current_matchday":"10",
-            "country":{
-               "id":"47",
-               "name":"Deutschland",
-               "code":"GER",
-               "iso":"DE"
-            },
-            "federation":{
-               "id":"2",
-               "name":"UEFA",
-               "order":"1",
-               "relation":"1"
-            },
-            "age":{
-               "id":"1",
-               "name":""
-            },
-            "season":[
-               {
-                  "id":"39228",
-                  "name":"2021/2022",
-                  "current_round_id":"117248",
-                  "current_group_matchday":"0",
-                  "start":"01.07.2021",
-                  "end":"30.06.2022",
-                  "round":[
+                     },
                      {
-                        "id":"117248",
-                        "name":"Spieltag",
-                        "current_matchday":"10",
-                        "round_order":"0",
+                        "id":"120090",
+                        "name":"Gruppe F",
+                        "current_matchday":"0",
+                        "round_order":"1",
                         "match":[
                            {
-                              "id":"9243219",
-                              "matchday":"10",
-                              "group_matchday":"0",
-                              "match_date":"15.10.2021",
-                              "match_time":"18:30",
+                              "id":"9306919",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"21:00",
                               "finished":"no",
                               "live_status":"full",
                               "real_live_status":"live",
                               "current_period":"game-start",
-                              "current_period_start":"2021-10-15T18:30:08Z",
-                              "current_minute":"13",
+                              "current_period_start":"2021-10-20T21:01:35Z",
+                              "current_minute":"38",
                               "attendance":"",
                               "home":{
-                                 "id":"1651",
-                                 "name":"SC Paderborn 07",
-                                 "shortname":"Paderborn",
-                                 "microname":"SCP",
+                                 "id":"1268",
+                                 "name":"Manchester United",
+                                 "shortname":"ManUtd",
+                                 "microname":"MUN",
                                  "type":"club",
                                  "gender":"male",
                                  "show_team":"yes",
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"55",
+                                    "name":"England",
+                                    "code":"ENG",
+                                    "iso":"GB"
                                  }
                               },
                               "away":{
-                                 "id":"1070",
-                                 "name":"Jahn Regensburg",
-                                 "shortname":"Regensburg",
-                                 "microname":"SSV",
+                                 "id":"155",
+                                 "name":"Atalanta",
+                                 "shortname":"Atalanta",
+                                 "microname":"ATL",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"89",
+                                    "name":"Italien",
+                                    "code":"ITA",
+                                    "iso":"IT"
+                                 }
+                              },
+                              "match_result":[
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"0",
+                                    "place":"home",
+                                    "team_id":"1268"
+                                 },
+                                 {
+                                    "match_result":"2",
+                                    "match_result_at":"0",
+                                    "place":"away",
+                                    "team_id":"155"
+                                 }
+                              ],
+                              "match_meta":[
+                                 {
+                                    "kind":"tactic",
+                                    "content":"22"
+                                 },
+                                 {
+                                    "kind":"tactical",
+                                    "content":"44"
+                                 },
+                                 {
+                                    "kind":"sportverlagSpielId",
+                                    "content":"3040971"
+                                 }
+                              ],
+                              "venue":{
+                                 "id":"1335",
+                                 "name":"Old Trafford",
+                                 "town":{
+                                    "id":"920",
+                                    "name":"Manchester"
+                                 },
+                                 "country":{
+                                    "id":"55",
+                                    "name":"England",
+                                    "code":"ENG",
+                                    "iso":"GB"
+                                 }
+                              }
+                           },
+                           {
+                              "id":"9307171",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"21:00",
+                              "finished":"no",
+                              "live_status":"full",
+                              "real_live_status":"live",
+                              "current_period":"game-start",
+                              "current_period_start":"2021-10-20T21:02:14Z",
+                              "current_minute":"37",
+                              "attendance":"",
+                              "home":{
+                                 "id":"283",
+                                 "name":"BSC Young Boys",
+                                 "shortname":"Young Boys",
+                                 "microname":"YB",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"183",
+                                    "name":"Schweiz",
+                                    "code":"SUI",
+                                    "iso":"CH"
+                                 }
+                              },
+                              "away":{
+                                 "id":"2102",
+                                 "name":"Villarreal CF",
+                                 "shortname":"Villarreal",
+                                 "microname":"VIL",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"193",
+                                    "name":"Spanien",
+                                    "code":"ESP",
+                                    "iso":"ES"
+                                 }
+                              },
+                              "match_result":[
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"0",
+                                    "place":"home",
+                                    "team_id":"283"
+                                 },
+                                 {
+                                    "match_result":"2",
+                                    "match_result_at":"0",
+                                    "place":"away",
+                                    "team_id":"2102"
+                                 }
+                              ],
+                              "match_meta":[
+                                 {
+                                    "kind":"tactic",
+                                    "content":"22"
+                                 },
+                                 {
+                                    "kind":"tactical",
+                                    "content":"44"
+                                 },
+                                 {
+                                    "kind":"sportverlagSpielId",
+                                    "content":"3040972"
+                                 }
+                              ],
+                              "venue":{
+                                 "id":"1783",
+                                 "name":"Stadion Wankdorf",
+                                 "town":{
+                                    "id":"180",
+                                    "name":"Bern"
+                                 },
+                                 "country":{
+                                    "id":"183",
+                                    "name":"Schweiz",
+                                    "code":"SUI",
+                                    "iso":"CH"
+                                 }
+                              }
+                           }
+                        ],
+                        "table_mode":{
+                           "id":"1",
+                           "name":"Fußball - Standard",
+                           "explanation":"Das klassische 3-Punkte System",
+                           "show_draw":"yes",
+                           "show_percentage":"no",
+                           "show_points":"yes",
+                           "show_minuspoints":"no"
+                        }
+                     },
+                     {
+                        "id":"120091",
+                        "name":"Gruppe G",
+                        "current_matchday":"0",
+                        "round_order":"1",
+                        "match":[
+                           {
+                              "id":"9307001",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"18:45",
+                              "finished":"yes",
+                              "live_status":"full",
+                              "real_live_status":"finished",
+                              "current_period":"game-end",
+                              "current_period_start":"2021-10-20T20:36:53Z",
+                              "current_minute":"90",
+                              "attendance":"",
+                              "home":{
+                                 "id":"1536",
+                                 "name":"RB Salzburg",
+                                 "shortname":"RB Salzburg",
+                                 "microname":"RBS",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"158",
+                                    "name":"Österreich",
+                                    "code":"AUT",
+                                    "iso":"AT"
+                                 }
+                              },
+                              "away":{
+                                 "id":"2086",
+                                 "name":"VfL Wolfsburg",
+                                 "shortname":"Wolfsburg",
+                                 "microname":"WOB",
                                  "type":"club",
                                  "gender":"male",
                                  "show_team":"yes",
@@ -251,16 +499,28 @@
                               },
                               "match_result":[
                                  {
-                                    "match_result":"0",
+                                    "match_result":"3",
                                     "match_result_at":"0",
                                     "place":"home",
-                                    "team_id":"1651"
+                                    "team_id":"1536"
                                  },
                                  {
                                     "match_result":"1",
                                     "match_result_at":"0",
                                     "place":"away",
-                                    "team_id":"1070"
+                                    "team_id":"2086"
+                                 },
+                                 {
+                                    "match_result":"1",
+                                    "match_result_at":"1",
+                                    "place":"home",
+                                    "team_id":"1536"
+                                 },
+                                 {
+                                    "match_result":"1",
+                                    "match_result_at":"1",
+                                    "place":"away",
+                                    "team_id":"2086"
                                  }
                               ],
                               "match_meta":[
@@ -274,141 +534,93 @@
                                  },
                                  {
                                     "kind":"vgzm",
-                                    "content":"vgzm.1820049-ma9243219"
+                                    "content":"vgzm.1820049-ma9307001"
                                  },
                                  {
                                     "kind":"audiolivestream",
-                                    "content":"https:\/\/wdr-sportschau-liga2spiel5.icecastssl.wdr.de\/wdr\/sportschau\/liga2spiel5\/mp3\/high?file=.mp3"
+                                    "content":"https:\/\/wdr-sportschau-liga1spiel2.icecastssl.wdr.de\/wdr\/sportschau\/liga1spiel2\/mp3\/high?file=.mp3"
                                  },
                                  {
                                     "kind":"audiolivestream_end",
-                                    "content":"2021-10-15T18:30:00Z"
+                                    "content":"2021-10-20T19:00:00Z"
                                  },
                                  {
                                     "kind":"audiolivestream_sophora_channel",
-                                    "content":"Netcast 15"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_sophora_url",
-                                    "content":"https:\/\/www.sportschau.de\/sportimradio\/audiostream-audiostream-netcast----128~_variant-android.rss"
+                                    "content":"Netcast 2"
                                  },
                                  {
                                     "kind":"audiolivestream_start",
-                                    "content":"2021-10-15T16:25:00Z"
+                                    "content":"2021-10-20T16:40:00Z"
                                  },
                                  {
                                     "kind":"audiolivestream_title",
-                                    "content":"2BL, ST10: SC Paderborn 07 - Jahn Regensburg"
+                                    "content":"Live hören - Salzburg gegen Wolfsburg in der Champions League"
                                  },
                                  {
                                     "kind":"audiolivestream_tracking",
-                                    "content":"Fußball, 2. Bundesliga, Spieltag 10, SC Paderborn 07 - Jahn Regensburg"
+                                    "content":"Live hören - Salzburg gegen Wolfsburg in der Champions League"
                                  },
                                  {
                                     "kind":"sportverlagSpielId",
-                                    "content":"2995407"
+                                    "content":"3040983"
                                  }
                               ],
                               "venue":{
-                                 "id":"1406",
-                                 "name":"Benteler-Arena",
+                                 "id":"1923",
+                                 "name":"Red Bull Arena",
                                  "town":{
-                                    "id":"1117",
-                                    "name":"Paderborn"
+                                    "id":"1622",
+                                    "name":"Wals-Siezenheim"
                                  },
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"158",
+                                    "name":"Österreich",
+                                    "code":"AUT",
+                                    "iso":"AT"
                                  }
-                              },
-                              "activity_data":[
-                                 {
-                                    "id":"185",
-                                    "order":"0",
-                                    "activity":{
-                                       "id":"46",
-                                       "name":"2. Bundesliga, 10. Spieltag, Konferenz",
-                                       "description":"",
-                                       "kind":"media",
-                                       "start":"2021-10-15 18:25:00",
-                                       "end":"2021-10-15 20:30:00",
-                                       "activity_meta":[
-                                          {
-                                             "kind":"audiolivestream",
-                                             "content":"https:\/\/wdr-sportschau-liga2konferenz.icecastssl.wdr.de\/wdr\/sportschau\/liga2konferenz\/mp3\/high?file=.mp3"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_end",
-                                             "content":"2021-10-15T18:30:00Z"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_sophora_channel",
-                                             "content":"Netcast 20"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_sophora_url",
-                                             "content":"https:\/\/www.sportschau.de\/sportimradio\/audiostream-audiostream-netcast----138~_variant-android.rss"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_start",
-                                             "content":"2021-10-15T16:25:00Z"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_title",
-                                             "content":"2BL, ST10: Konferenz 15.10.2021 18:30"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_tracking",
-                                             "content":"Fußball, 2. Bundesliga, Spieltag 10, Konferenz 15.10.2021 18:30"
-                                          }
-                                       ]
-                                    }
-                                 }
-                              ]
+                              }
                            },
                            {
-                              "id":"9243221",
-                              "matchday":"10",
-                              "group_matchday":"0",
-                              "match_date":"15.10.2021",
-                              "match_time":"18:30",
+                              "id":"9306914",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"21:00",
                               "finished":"no",
                               "live_status":"full",
                               "real_live_status":"live",
                               "current_period":"game-start",
-                              "current_period_start":"2021-10-15T18:31:44Z",
-                              "current_minute":"12",
+                              "current_period_start":"2021-10-20T21:00:53Z",
+                              "current_minute":"38",
                               "attendance":"",
                               "home":{
-                                 "id":"951",
-                                 "name":"Hannover 96",
-                                 "shortname":"Hannover",
-                                 "microname":"H96",
+                                 "id":"1435",
+                                 "name":"Lille OSC",
+                                 "shortname":"Lille",
+                                 "microname":"OSC",
                                  "type":"club",
                                  "gender":"male",
                                  "show_team":"yes",
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"61",
+                                    "name":"Frankreich",
+                                    "code":"FRA",
+                                    "iso":"FR"
                                  }
                               },
                               "away":{
-                                 "id":"694",
-                                 "name":"FC Schalke 04",
-                                 "shortname":"Schalke",
-                                 "microname":"S04",
+                                 "id":"1681",
+                                 "name":"Sevilla FC",
+                                 "shortname":"Sevilla",
+                                 "microname":"SEV",
                                  "type":"club",
                                  "gender":"male",
                                  "show_team":"yes",
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"193",
+                                    "name":"Spanien",
+                                    "code":"ESP",
+                                    "iso":"ES"
                                  }
                               },
                               "match_result":[
@@ -416,13 +628,13 @@
                                     "match_result":"0",
                                     "match_result_at":"0",
                                     "place":"home",
-                                    "team_id":"951"
+                                    "team_id":"1435"
                                  },
                                  {
                                     "match_result":"0",
                                     "match_result_at":"0",
                                     "place":"away",
-                                    "team_id":"694"
+                                    "team_id":"1681"
                                  }
                               ],
                               "match_meta":[
@@ -435,100 +647,213 @@
                                     "content":"44"
                                  },
                                  {
-                                    "kind":"vgzm",
-                                    "content":"vgzm.1820049-ma9243221"
-                                 },
-                                 {
-                                    "kind":"audiolivestream",
-                                    "content":"https:\/\/wdr-sportschau-liga2spiel6.icecastssl.wdr.de\/wdr\/sportschau\/liga2spiel6\/mp3\/high?file=.mp3"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_end",
-                                    "content":"2021-10-15T18:30:00Z"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_sophora_channel",
-                                    "content":"Netcast 16"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_sophora_url",
-                                    "content":"https:\/\/www.sportschau.de\/sportimradio\/audiostream-audiostream-netcast----130~_variant-android.rss"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_start",
-                                    "content":"2021-10-15T16:25:00Z"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_title",
-                                    "content":"2BL, ST10: Hannover 96 - FC Schalke 04"
-                                 },
-                                 {
-                                    "kind":"audiolivestream_tracking",
-                                    "content":"Fußball, 2. Bundesliga, Spieltag 10, Hannover 96 - FC Schalke 04"
-                                 },
-                                 {
                                     "kind":"sportverlagSpielId",
-                                    "content":"2995408"
+                                    "content":"3040984"
                                  }
                               ],
                               "venue":{
-                                 "id":"177",
-                                 "name":"HDI-Arena",
+                                 "id":"3825",
+                                 "name":"Stade Pierre Mauroy",
                                  "town":{
-                                    "id":"600",
-                                    "name":"Hannover"
+                                    "id":"1602",
+                                    "name":"Villeneuve d'Ascq"
                                  },
                                  "country":{
-                                    "id":"47",
-                                    "name":"Deutschland",
-                                    "code":"GER",
-                                    "iso":"DE"
+                                    "id":"61",
+                                    "name":"Frankreich",
+                                    "code":"FRA",
+                                    "iso":"FR"
+                                 }
+                              }
+                           }
+                        ],
+                        "table_mode":{
+                           "id":"1",
+                           "name":"Fußball - Standard",
+                           "explanation":"Das klassische 3-Punkte System",
+                           "show_draw":"yes",
+                           "show_percentage":"no",
+                           "show_points":"yes",
+                           "show_minuspoints":"no"
+                        }
+                     },
+                     {
+                        "id":"120092",
+                        "name":"Gruppe H",
+                        "current_matchday":"0",
+                        "round_order":"1",
+                        "match":[
+                           {
+                              "id":"9306911",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"21:00",
+                              "finished":"no",
+                              "live_status":"full",
+                              "real_live_status":"live",
+                              "current_period":"game-start",
+                              "current_period_start":"2021-10-20T21:00:50Z",
+                              "current_minute":"38",
+                              "attendance":"",
+                              "home":{
+                                 "id":"2179",
+                                 "name":"Zenit St. Petersburg",
+                                 "shortname":"Zenit",
+                                 "microname":"ZEN",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"172",
+                                    "name":"Russland",
+                                    "code":"RUS",
+                                    "iso":"RU"
                                  }
                               },
-                              "activity_data":[
-                                 {
-                                    "id":"186",
-                                    "order":"0",
-                                    "activity":{
-                                       "id":"46",
-                                       "name":"2. Bundesliga, 10. Spieltag, Konferenz",
-                                       "description":"",
-                                       "kind":"media",
-                                       "start":"2021-10-15 18:25:00",
-                                       "end":"2021-10-15 20:30:00",
-                                       "activity_meta":[
-                                          {
-                                             "kind":"audiolivestream",
-                                             "content":"https:\/\/wdr-sportschau-liga2konferenz.icecastssl.wdr.de\/wdr\/sportschau\/liga2konferenz\/mp3\/high?file=.mp3"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_end",
-                                             "content":"2021-10-15T18:30:00Z"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_sophora_channel",
-                                             "content":"Netcast 20"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_sophora_url",
-                                             "content":"https:\/\/www.sportschau.de\/sportimradio\/audiostream-audiostream-netcast----138~_variant-android.rss"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_start",
-                                             "content":"2021-10-15T16:25:00Z"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_title",
-                                             "content":"2BL, ST10: Konferenz 15.10.2021 18:30"
-                                          },
-                                          {
-                                             "kind":"audiolivestream_tracking",
-                                             "content":"Fußball, 2. Bundesliga, Spieltag 10, Konferenz 15.10.2021 18:30"
-                                          }
-                                       ]
-                                    }
+                              "away":{
+                                 "id":"1094",
+                                 "name":"Juventus Turin",
+                                 "shortname":"Juventus",
+                                 "microname":"JUV",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"89",
+                                    "name":"Italien",
+                                    "code":"ITA",
+                                    "iso":"IT"
                                  }
-                              ]
+                              },
+                              "match_result":[
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"0",
+                                    "place":"home",
+                                    "team_id":"2179"
+                                 },
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"0",
+                                    "place":"away",
+                                    "team_id":"1094"
+                                 }
+                              ],
+                              "match_meta":[
+                                 {
+                                    "kind":"tactic",
+                                    "content":"22"
+                                 },
+                                 {
+                                    "kind":"tactical",
+                                    "content":"44"
+                                 },
+                                 {
+                                    "kind":"sportverlagSpielId",
+                                    "content":"3040996"
+                                 }
+                              ],
+                              "venue":{
+                                 "id":"6027",
+                                 "name":"Gazprom Arena",
+                                 "town":{
+                                    "id":"1431",
+                                    "name":"St. Petersburg"
+                                 },
+                                 "country":{
+                                    "id":"172",
+                                    "name":"Russland",
+                                    "code":"RUS",
+                                    "iso":"RU"
+                                 }
+                              }
+                           },
+                           {
+                              "id":"9307037",
+                              "matchday":"0",
+                              "group_matchday":"3",
+                              "match_date":"20.10.2021",
+                              "match_time":"21:00",
+                              "finished":"no",
+                              "live_status":"full",
+                              "real_live_status":"live",
+                              "current_period":"game-start",
+                              "current_period_start":"2021-10-20T21:00:16Z",
+                              "current_minute":"39",
+                              "attendance":"",
+                              "home":{
+                                 "id":"373",
+                                 "name":"Chelsea FC",
+                                 "shortname":"Chelsea",
+                                 "microname":"CHE",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"55",
+                                    "name":"England",
+                                    "code":"ENG",
+                                    "iso":"GB"
+                                 }
+                              },
+                              "away":{
+                                 "id":"1266",
+                                 "name":"Malmö FF",
+                                 "shortname":"Malmö FF",
+                                 "microname":"MAL",
+                                 "type":"club",
+                                 "gender":"male",
+                                 "show_team":"yes",
+                                 "country":{
+                                    "id":"182",
+                                    "name":"Schweden",
+                                    "code":"SWE",
+                                    "iso":"SE"
+                                 }
+                              },
+                              "match_result":[
+                                 {
+                                    "match_result":"2",
+                                    "match_result_at":"0",
+                                    "place":"home",
+                                    "team_id":"373"
+                                 },
+                                 {
+                                    "match_result":"0",
+                                    "match_result_at":"0",
+                                    "place":"away",
+                                    "team_id":"1266"
+                                 }
+                              ],
+                              "match_meta":[
+                                 {
+                                    "kind":"tactic",
+                                    "content":"22"
+                                 },
+                                 {
+                                    "kind":"tactical",
+                                    "content":"44"
+                                 },
+                                 {
+                                    "kind":"sportverlagSpielId",
+                                    "content":"3040995"
+                                 }
+                              ],
+                              "venue":{
+                                 "id":"1944",
+                                 "name":"Stamford Bridge",
+                                 "town":{
+                                    "id":"873",
+                                    "name":"London"
+                                 },
+                                 "country":{
+                                    "id":"55",
+                                    "name":"England",
+                                    "code":"ENG",
+                                    "iso":"GB"
+                                 }
+                              }
                            }
                         ],
                         "table_mode":{
